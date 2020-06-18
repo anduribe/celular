@@ -14,8 +14,9 @@ public class Celular {
 	private String color;
 	private int numero;
 	
+	//agregado cambio desde gitHub
 	//ingrese un dato nuevo al clonar el proyecto
-	// constructor con par·metros
+	// constructor con par√°metros
 	// Celular celular = new Celular("sdf","dfg","ret",1234);
 	public Celular(String marca, String modelo, String color, int numero) {
 		this.marca = marca;
@@ -29,12 +30,12 @@ public class Celular {
 		
 	}
 	
-	// mÈtodo hacer llamada
+	// m√©todo hacer llamada
 	public void llamar(String nombre){
 		System.out.println("LLamando a "+ nombre);
 	}
 	
-	//mÈtodo finalizar llamada
+	//m√©todo finalizar llamada
 	public void cortarLlamada(){
 		System.out.println("Llamada finalizada");
 	}
@@ -70,7 +71,7 @@ public class Celular {
 
  
 	public static void main(String[] args) {
-		//creo un nuevo objeto de tipo celular, con el constructor vacÌo
+		//creo un nuevo objeto de tipo celular, con el constructor vac√≠o
 		Celular celular = new Celular();
 		//Celular celular = new Celular("sdf","dfg","ret",1234);
 		// le asigno la marca, modelo, y color
@@ -81,7 +82,7 @@ public class Celular {
 		celular.color = "rojo";
 		//celular.setColor("azul");
 		celular.numero = 1234;
-		//utilizo lo mÈtodos, llamar, cortarLlamada e informar caracterÌsticas
+		//utilizo lo m√©todos, llamar, cortarLlamada e informar caracter√≠sticas
 		celular.llamar("juan");
 		celular.cortarLlamada();
 		System.out.println();
