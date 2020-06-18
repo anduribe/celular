@@ -14,7 +14,7 @@ public class Celular {
 	private String color;
 	private int numero;
 	
-	
+	//ingrese un dato nuevo al clonar el proyecto
 	// constructor con parámetros
 	// Celular celular = new Celular("sdf","dfg","ret",1234);
 	public Celular(String marca, String modelo, String color, int numero) {
